@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             version="2.0">
+    <persistence-unit name="TestProject"
+                      transaction-type="RESOURCE_LOCAL">
+        <class>com.company.testproject.entity.Address</class>
+        <class>com.company.testproject.entity.Admin</class>
+        <class>com.company.testproject.entity.Book</class>
+        <class>com.company.testproject.entity.Certificate</class>
+        <class>com.company.testproject.entity.Employee</class>
+        <class>com.company.testproject.entity.HREmployee</class>
+        <class>com.company.testproject.entity.Manager</class>
+        <class>com.company.testproject.entity.Location</class>
+        <class>com.company.testproject.entity.Survey</class>
+        <class>com.company.testproject.entity.Training</class>
+    </persistence-unit>
+</persistence>
