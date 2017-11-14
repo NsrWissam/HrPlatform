@@ -13,5 +13,6 @@
         <class>com.company.testproject.entity.Location</class>
         <class>com.company.testproject.entity.Survey</class>
         <class>com.company.testproject.entity.Training</class>
+        <class>com.company.testproject.entity.Test</class>
     </persistence-unit>
 </persistence>
